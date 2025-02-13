@@ -1,6 +1,7 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { getDirname, path } from 'vuepress/utils'
 
 export default defineUserConfig({
   base: '/dnd/',
@@ -9,8 +10,12 @@ export default defineUserConfig({
   title: 'D&D Campaign',
   description: 'D&D World and Player Info',
 
+  // alias: {
+  //   '@alias': path.resolve(__dirname, './'),
+  // },
+
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: '/images/d20.webp',
 
     externalLinkIcon: false,
     lastUpdated: false,
