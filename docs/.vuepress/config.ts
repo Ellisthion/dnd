@@ -12,6 +12,9 @@ export default defineUserConfig({
     logo: 'https://vuejs.press/images/hero.png',
 
     externalLinkIcon: false,
+    lastUpdated: false,
+    contributors: false,
+    editLink: false,
 
     // navbar: ['/', '/get-started'],
     navbar: [],
@@ -21,16 +24,39 @@ export default defineUserConfig({
         link: '/'
       },
       {
-        text: 'Characters',
-        link: 'player/characters'
-      },
-      {
-        text: 'World',
-        link: 'player/world'
+        text: 'Character Creation',
+        children: [
+          {
+            text: 'Your Character',
+            link: 'characters/characters'
+          },
+          {
+            text: 'Character Creation',
+            link: 'characters/character-rules'
+          }
+        ]
       },
       {
         text: 'Rules',
-        link: 'player/rules'
+        children: [
+          {
+            text: 'Rules Changes',
+            link: 'rules/rules-changes'
+          },
+        ]
+      },
+      {
+        text: 'The World',
+        children: [
+          {
+            text: 'World Map',
+            link: 'world/map'
+          },
+          {
+            text: 'Overview of the World',
+            link: 'world/world-overview'
+          }
+        ]
       }
     ]
   }),

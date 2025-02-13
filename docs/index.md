@@ -1,15 +1,19 @@
 ---
 actions:
-  - text: Characters
-    link: ./player/characters
+  - text: Your Character
+    link: ./characters/characters
     type: primary
 
-  - text: World
-    link: ./player/world
+  - text: Character Creation
+    link: ./characters/character-rules
     type: primary
 
-  - text: Rules
-    link: ./player/rules
+  - text: The World
+    link: ./world/world-overview
+    type: primary
+
+  - text: Rules Changes
+    link: ./rules/rules-changes
     type: primary
 ---
 
@@ -38,12 +42,15 @@ import VPAutoLink from '@theme/VPAutoLink.vue'
 
 <style lang="scss" scoped>
 .home-nav-links {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
   gap: 1rem;
 
   .button {
-    min-width: 10rem;
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 </style>
