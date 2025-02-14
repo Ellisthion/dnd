@@ -24,6 +24,8 @@ actions:
 The Campaign Reference is still incomplete, and subject to change.
 :::
 
+Welcome to your one-stop reference for everything about <span class="redacted" style="width: 5rem"><!-- When I said redacted I meant it --></span> and <span class="redacted" style="width: 6.4rem"><!-- No secrets for you! --></span>, twin campaigns  taking place at the same time in the same world.
+
 Learn about the campaign world, character creation, and campaign-specific rules.
 
 <div class="home-nav-links">
@@ -52,5 +54,11 @@ import VPAutoLink from '@theme/VPAutoLink.vue'
     justify-content: center;
     align-items: center;
   }
+}
+
+.redacted {
+  display: inline-block;
+  background-color: black;
+  height: 1em;
 }
 </style>

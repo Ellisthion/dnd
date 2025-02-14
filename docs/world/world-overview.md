@@ -1,26 +1,22 @@
 # World
-
-This game takes place in a custom campaign setting. It has some similarities to some published worlds, but differs in many key ways.
+This game takes place in my personal campaign setting. This world has been used for multiple previous campaigns, most notably the Bronston Forge Campaign, and the Heart of the Sea Campaign.
 
 The setting is high fantasy. Magic is plentiful. Powerful city-states vie for control of the continent. The gods are powerful, interfering, and have their own agendas.
-## Campaign Theme
-The major themes of the campaign are:
-* Magic and power - who has it, where does it come from?
-* History - uncover the mysteries of the past
-* Politics - amongst gods, city-states, secretive underworld figures, and more
-* Freedom - as players, you are empowered to proactively explore the world
+
 ## Gods
 Gods are the Norse pantheon: Odin, Thor, Freya, etc. The temple of Freya is particularly powerful and influential.
 
 The temples teach that the realm of the gods, Asgard, is connected to the material plane, Midgard, through the world tree Yggdrasil, which joins together all the planes of existence.
 
-The gods cannot themselves manifest in Midgard, and rely on mortals to do their bidding.
+The gods cannot themselves come to Midgard, and instead give divine magic to mortals - priests, paladins, etc - to serve their interests. Angels occasionally appear to act as more direct servants.
+
+Most people in the world pray to multiple gods, depending on what they need, such as a prayer to Njord before a sea journey, or a prayer to Freya for a good harvest.
 ### History
 The temples teach a basic history that is widely known by everyone, from noble to peasant.
 
 Thousands of years ago, the gods made the world, but then abandoned it. In the absence of gods, dragons ruled. Then came the illithids: terrifying brain-eating monsters known as mind flayers. With their psionic powers, the illithids psychically enslaved all the peoples of the world. All hope was lost, until the gods returned, with a gift: magic. Wielding the power of the gods, the slaves rose up against the illithids, destroying their empire, eradicating every last one, and burning their cities to ash.
 
-Today, all surviving cultures are influenced by this shared trauma. Slavery is rare and widely condemned, as is any attempt to take away the free will of a person, particularly through magic. Psionic magic is illegal and persecuted - in rural areas, this can turn into witch-hunts against guilty and innocent alike.
+Today, all surviving cultures are influenced by this shared trauma. Slavery is rare and widely condemned, as is any attempt to take away the free will of a person, particularly through magic. Psionic magic is illegal and persecuted, but dark cults still practice psionics in secret. In rural areas, accusations of psionic manipulations can turn into witch-hunts against guilty and innocent alike.
 ## Major Factions
 ### Bronston Forge
 In Bronston Forge, secrets are power. Queen Sorelia has unified the city with the nearby dark elves of Lucrezia, and her spymaster's resources are unmatched. The Temple of Freya under Lord Reginald is based here, as well as their military branch, the Order of the Sacred Spear.
@@ -58,7 +54,7 @@ Vildmark recently suffered a magical accident, leaving the town's ocean cliffs i
 ### Lucrezia
 Deep in the Dark Forest is a reclusive city of drow (dark elves). Queen Sorelia of Bronston Forge is half-Lucrezian and has politically unified the city with Bronston Forge.
 
-Lucrezia is entirely populated by drow, with the occassional half-drow.
+Lucrezia is entirely populated by drow, with the occasional half-drow.
 ### Northern Tribes
 In the tundra north of Rochekell are a variety of small tribes. The most significant are the White Fox, Grey Raven, and Blue Roc tribes. They are constantly in a struggle against elements, and the giant monsters and dragons that live in the northern reaches of the world.
 
@@ -66,7 +62,7 @@ The northern tribes are a mix of humans, wood elves, dwarves, orcs, and goliaths
 ### Eastern Steppes
 To the east past the mountains are endless grasslands, inhabited by nomadic tribes of wood elves, orcs, and goliaths.
 ### Southern Deserts
-Stories tell of deserts to the south, inhabited by dark elves.
+Stories tell of deserts to the south, inhabited by dark elves. There is a dark elf order of spellcasters known as the Duskblades who often travel to Rochekell for trade.
 ## Differences From Other D&D Worlds
 If you are familiar with other D&D settings, such as the Forgotten Realms, there are a few key differences you may want to be aware of:
 

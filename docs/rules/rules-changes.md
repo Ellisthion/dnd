@@ -1,5 +1,5 @@
 # Rules Changes
-This page covers specific rules changes. Any rules and restrictions on character creation is instead covered in [[Player Rules Info]].
+This page covers specific rules changes. Any rules and restrictions on character creation is instead covered in [Character Creation](../characters/character-rules.md).
 ## Druid Wild Shape
 Wild Shape is extended to allow you to turn into certain animal-like non-Beasts, such as Giant Eagles and Hippogryphs. As a rule of thumb, if a creature doesn't have any special magical abilities, it's probably okay - for example: Pegasus is fine, but Unicorn is not.
 
