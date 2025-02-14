@@ -1,20 +1,20 @@
 ---
 actions:
   - text: Your Character
+    icon: Character
     link: ./characters/characters
-    type: primary
 
   - text: Character Creation
+    icon: Character Creation
     link: ./characters/character-rules
-    type: primary
 
   - text: The World
+    icon: World
     link: ./world/world-overview
-    type: primary
 
   - text: Rules Changes
+    icon: Rules
     link: ./rules/rules-changes
-    type: primary
 ---
 
 
@@ -29,18 +29,19 @@ Welcome to your one-stop reference for everything about <span class="redacted" s
 Learn about the campaign world, character creation, and campaign-specific rules.
 
 <div class="home-nav-links">
-  <VPAutoLink
+  <RouteLink
     v-for="action in $page.frontmatter.actions"
-    :key="action.text"
-    class="vp-hero-action-button button"
-    :class="[action.type]"
-    :config="action"
-  />
+    :to="action.link"
+    class="button"
+  >
+    <div class="button-image">
+      <img :src="`images/${action.icon}.png`" alt="" />
+    </div>
+    <div class="button-content">
+      {{ action.text }}
+    </div>
+  </RouteLink>
 </div>
-
-<script setup lang="ts">
-import VPAutoLink from '@theme/VPAutoLink.vue'
-</script>
 
 <style lang="scss" scoped>
 .home-nav-links {
@@ -50,9 +51,42 @@ import VPAutoLink from '@theme/VPAutoLink.vue'
 
   .button {
     min-width: fit-content;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    border: 2px solid var(--vp-c-accent-bg);
+    border-radius: 8px;
+    overflow: hidden;
+
+    &:hover {
+      border-color: var(--vp-c-accent-hover);
+
+      .button-content {
+        background-color: var(--vp-c-accent-hover);
+      }
+    }
+  }
+
+  .button-image {
+    width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+
+      pointer-events: none;
+    }
+  }
+
+  .button-content {
+    padding: 0.5rem 2rem;
+
+    background-color: var(--vp-c-accent-bg);
+    color: var(--vp-c-accent-text);
   }
 }
 
