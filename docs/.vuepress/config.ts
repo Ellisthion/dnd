@@ -9,6 +9,9 @@ export default defineUserConfig({
 
   title: 'D&D Campaign',
   description: 'D&D World and Player Info',
+  head: [
+    ['link', { rel: 'icon', href: 'favicon.ico' }]
+  ],
 
   // alias: {
   //   '@alias': path.resolve(__dirname, './'),
