@@ -2,6 +2,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { getDirname, path } from 'vuepress/utils'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 
 export default defineUserConfig({
   base: '/dnd/',
@@ -16,6 +17,12 @@ export default defineUserConfig({
   // alias: {
   //   '@alias': path.resolve(__dirname, './'),
   // },
+
+  plugins: [
+    registerComponentsPlugin({
+      componentsDir: path.resolve(__dirname, './components'),
+    })
+  ],
 
   theme: defaultTheme({
     logo: '/images/d20.webp',
@@ -69,6 +76,16 @@ export default defineUserConfig({
         ]
       },
       {
+        text: 'The World',
+        link: 'world/map',
+        children: [
+          {
+            text: 'World Map',
+            link: 'world/map'
+          }
+        ]
+      },
+      {
         text: 'Rules',
         link: 'rules/rules-changes',
         children: [
@@ -78,16 +95,6 @@ export default defineUserConfig({
           },
         ]
       },
-      {
-        text: 'The World',
-        link: 'world/map',
-        children: [
-          {
-            text: 'World Map',
-            link: 'world/map'
-          }
-        ]
-      }
     ]
   }),
 

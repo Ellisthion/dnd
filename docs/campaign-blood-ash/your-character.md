@@ -1,8 +1,8 @@
 # Your Character
 
->You need to enjoy playing your character.
->The other players should also like your character.
->Finally, the Dungeon Master needs to like your character.
+>You need to enjoy playing your character.<br>
+>The other players should also like your character.<br>
+>Finally, the Dungeon Master needs to like your character.<br>
 >
 >— [*Matt Colville*](https://www.youtube.com/watch?v=Sd3stb5fz8I)
 
