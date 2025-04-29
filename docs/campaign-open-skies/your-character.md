@@ -1,4 +1,5 @@
 # Your Character
+
 >In the end, this is a character, not a person. You're the one who gets to decide what they do, and why. I sometimes see people use "It's what my character would do" to excuse bad behaviour, but don't get it twisted: you created that character, you decide what they're like, and how they act. You have the power to create a character that your fellow party members are going to enjoy playing with.
 >
 >— [*Ginny Di*](https://youtu.be/zeHzNBb-_8Y)
@@ -19,7 +20,8 @@ If you have a character inspired by an existing character in other fiction, reme
 
 There will be a "Session 0" where we will discuss expectations, characters, and so on. Pre-planning a character is fine, but I recommend waiting until Session 0 to finalise how your character will fit into the game and world.
 
-For rules information, see [Character Creation](./character-rules.md).
+For rules information, see [Character Creation](./character-creation.md).
+
 ## Campaign Theme
 The major themes of the campaign are:
 * Magic and power - who has it, where does it come from?
@@ -32,8 +34,9 @@ There will be a central narrative as well as countless side stories. You will be
 Combat is intended to challenging. Make sure your character can contribute to combat in a meaningful way.
 
 Unlike the Bronston Forge Campaign, there will _not_ be an emphasis on secrets and conflict between players characters. Hostile or disruptive actions towards other player characters will only be allowed if you can convince both the DM and the other players involved why such actions are beneficial to the game and everyone's enjoyment of it.
+
 ## Campaign Start
-The beginning of the campaign will be in and around the city of Rochekell. For more information about the world, see [Overview of the World](../world/world-overview.md).
+The beginning of the campaign will be in and around the city of Rochekell. For more information about the world, see [[World Overview]].
 
 Player characters must:
 * Have a reason to be in Rochekell

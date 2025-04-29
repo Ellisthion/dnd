@@ -15,6 +15,8 @@ The only permitted source at this time is the 2024 Player's Handbook.
 Almost all options are allowed, but some may come with roleplaying complications and may need some discussion. The only completely disallowed options are Celestial Warlock and Dragonborn.
 
 Multiclassing requires DM approval. Feats are fine, but please let me know what you pick.
+
+Characters will start at level 1.
 ## Attributes
 Attributes can be:
 * Standard array
@@ -50,7 +52,7 @@ The approximate groupings of power sources are: Arcane, Divine, Martial, Primal,
 
 Characters with a god or patron (Clerics, Paladins, Warlocks, Zealot Barbarian, maybe others) has *responsibilities* to that god or patron. A god can withdraw a character's divine power in extreme situations, and a patron can pursue other punishments.
 
-Psionics are illegal and persecuted in most parts of the world, as detailed in the [world history](../world/world-overview#history). As such, the Soulknife, Psi Warrior, and Aberrant Sorcerer come with complications. A psionic character would need a backstory to answer how they know such powers, and a plan on how to work happily with the party and avoid upsetting NPCs and getting killed by an angry mob.
+Psionics are illegal and persecuted in most parts of the world, as detailed in the [World History](../world/world-overview.md#history). As such, the Soulknife, Psi Warrior, and Aberrant Sorcerer come with complications. A psionic character would need a backstory to answer how they know such powers, and a plan on how to work happily with the party and avoid upsetting NPCs and getting killed by an angry mob.
 
 Celestial Warlock is disallowed because it clashes with the 'mixed power source' theme and I just can't reconcile it with the setting.
 

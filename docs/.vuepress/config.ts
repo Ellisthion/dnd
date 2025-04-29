@@ -29,24 +29,48 @@ export default defineUserConfig({
     navbar: [],
     sidebar: [
       {
-        text: 'Welcome',
+        text: 'Home',
         link: '/'
       },
       {
-        text: 'Character Creation',
+        text: 'Open Skies Campaign',
+        link: 'campaign-open-skies/introduction',
         children: [
           {
+            text: 'Introduction',
+            link: 'campaign-open-skies/introduction'
+          },
+          {
             text: 'Your Character',
-            link: 'characters/characters'
+            link: 'campaign-open-skies/your-character'
           },
           {
             text: 'Character Creation',
-            link: 'characters/character-rules'
+            link: 'campaign-open-skies/character-creation'
+          }
+        ]
+      },
+      {
+        text: 'Blood & Ash Campaign',
+        link: 'campaign-blood-ash/introduction',
+        children: [
+          {
+            text: 'Introduction',
+            link: 'campaign-blood-ash/introduction'
+          },
+          {
+            text: 'Your Character',
+            link: 'campaign-blood-ash/your-character'
+          },
+          {
+            text: 'Character Creation',
+            link: 'campaign-blood-ash/character-creation'
           }
         ]
       },
       {
         text: 'Rules',
+        link: 'rules/rules-changes',
         children: [
           {
             text: 'Rules Changes',
@@ -56,14 +80,11 @@ export default defineUserConfig({
       },
       {
         text: 'The World',
+        link: 'world/map',
         children: [
           {
             text: 'World Map',
             link: 'world/map'
-          },
-          {
-            text: 'Overview of the World',
-            link: 'world/world-overview'
           }
         ]
       }
