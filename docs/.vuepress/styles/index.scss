@@ -1,4 +1,9 @@
 @use 'overrides';
+@use 'breakpoints';
+
+html {
+  touch-action: manipulation;
+}
 
 .vp-page-nav {
   display: none !important;
@@ -11,4 +16,16 @@
 
 img {
   vertical-align: middle;
+}
+
+.mobile-only {
+  @include breakpoints.desktop {
+    display: none !important;
+  }
+}
+
+.desktop-only {
+  @include breakpoints.mobile {
+    display: none !important;
+  }
 }

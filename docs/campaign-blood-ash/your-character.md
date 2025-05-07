@@ -1,3 +1,5 @@
+<CampaignSpecific :campaign="'blood-and-ash'" :other="'../campaign-open-skies/your-character.md'" />
+
 # Your Character
 
 >You need to enjoy playing your character.<br>
@@ -13,7 +15,7 @@ Your character should:
 
 Your character's motivations don't have to be complex - it could be as simple as altruism, wealth, power, or duty. Or it can be deeper, but should still align with the overall campaign themes and be compatible with an adventuring life. Your character does *not* have to be a good person, or motivated by heroism.
 ## Campaign Theme
-The major themes of the campaign are::
+The major themes of the campaign are:
 * Consequences - your actions shape the world
 * Aftermath - there were wars, revolutions, and more... but what happens next?
 * Politics - large city-states and smaller kingdoms watch the changing world nervously

@@ -6,7 +6,7 @@
       class="button"
     >
       <div class="button-image">
-        <img :src="`../images/${action.icon}.jpg`" alt="" />
+        <img :src="withBase(`/images/${action.icon}`)" alt="" />
       </div>
       <div class="button-content">
         {{ action.text }}
@@ -16,6 +16,8 @@
 </template>
 
 <script setup lang="ts">
+import { withBase } from 'vuepress/client'
+
 const props = defineProps<{
   actions: Array<{
     text: string,
@@ -26,6 +28,8 @@ const props = defineProps<{
 </script>
 
 <style lang="scss" scoped>
+@use '../styles/breakpoints';
+
 .home-nav-links {
   padding-top: 1rem;
   
@@ -33,7 +37,7 @@ const props = defineProps<{
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 
-  @media screen and (max-width: 719px) {
+  @include breakpoints.mobile {
     grid-template-columns: 1fr;
   }
 }

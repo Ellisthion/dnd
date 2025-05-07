@@ -1,3 +1,5 @@
+<CampaignSpecific :campaign="'open-skies'" :other="'../campaign-blood-ash/character-creation.md'" />
+
 # Character Creation
 
 Please run character concepts by the DM, particularly when more complex mechanically, or when intertwined with the world and lore.

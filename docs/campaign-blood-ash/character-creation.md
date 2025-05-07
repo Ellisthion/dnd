@@ -1,3 +1,5 @@
+<CampaignSpecific :campaign="'blood-and-ash'" :other="'../campaign-open-skies/character-creation.md'" />
+
 # Character Creation
 
 We will create characters together, in the first session. In this session, we will also go over everything about the campaign upfront, including the player expectations, campaign overview and themes, characters, and rules.

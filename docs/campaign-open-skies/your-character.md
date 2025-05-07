@@ -1,3 +1,5 @@
+<CampaignSpecific :campaign="'open-skies'" :other="'../campaign-blood-ash/your-character.md'" />
+
 # Your Character
 
 >In the end, this is a character, not a person. You're the one who gets to decide what they do, and why. I sometimes see people use "It's what my character would do" to excuse bad behaviour, but don't get it twisted: you created that character, you decide what they're like, and how they act. You have the power to create a character that your fellow party members are going to enjoy playing with.
