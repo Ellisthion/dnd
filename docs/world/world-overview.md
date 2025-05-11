@@ -1,8 +1,7 @@
-# World
+# World & History
 This game takes place in my personal campaign setting. This world has been used for multiple previous campaigns, most notably the Bronston Forge Campaign, and the Heart of the Sea Campaign.
 
 The setting is high fantasy. Magic is plentiful. Powerful city-states vie for control of the continent. The gods are powerful, interfering, and have their own agendas.
-
 ## Gods
 Gods are the Norse pantheon: Odin, Thor, Freya, etc. The temple of Freya is particularly powerful and influential.
 
@@ -11,7 +10,7 @@ The temples teach that the realm of the gods, Asgard, is connected to the materi
 The gods cannot themselves come to Midgard, and instead give divine magic to mortals - priests, paladins, etc - to serve their interests. Angels occasionally appear to act as more direct servants.
 
 Most people in the world pray to multiple gods, depending on what they need, such as a prayer to Njord before a sea journey, or a prayer to Freya for a good harvest.
-### History
+## History
 The temples teach a basic history that is widely known by everyone, from noble to peasant.
 
 Thousands of years ago, the gods made the world, but then abandoned it. In the absence of gods, dragons ruled. Then came the illithids: terrifying brain-eating monsters known as mind flayers. With their psionic powers, the illithids psychically enslaved all the peoples of the world. All hope was lost, until the gods returned, with a gift: magic. Wielding the power of the gods, the slaves rose up against the illithids, destroying their empire, eradicating every last one, and burning their cities to ash.
@@ -33,7 +32,7 @@ Valengard's population is predominately humans, but have a wide mix of a variety
 ### Rochekell
 In Rochekell, magic is power. A mageocracy ruled by four powerful spellcasters, Rochekell enjoys both widespread usage of magic, as well as some of the strictest laws around its use. Some usages of enchantment magic, such as charms and love potions, can carry sentences harsher than for murder.
 
-Rochekell has recently had substantial political tension with its southern neighbour, Ravena, and it is believed that war is likely inevitable.
+Rochekell has recently had substantial political tension with its southern neighbour, Ravena, and it is believed that war is likely inevitable. Army recruitment has stepped up, and there's rumours of a forced levy. The Griffonwing, elite griffon riders, are a frequent sight patrolling the skies in tight formations.
 
 Rochekell's population is mostly humans and high elves, but ocean traders and magical portals bring all sorts of esoteric people.
 ### Ravena
@@ -44,9 +43,9 @@ Ravena's king was recently assassinated, right under the watch of the zealous ro
 Raven's population is almost entirely humans, dwarves, and gnomes. 
 ## Lesser Factions and Locations
 ### Ember
-A vassal kingdom of Valengard. Recently saw a massive uprising which saw the ruling human nobles deposed and much of the city burned. The fragile revolutionary government is struggling to keep order, and neighbouring minor kingdoms are flooded with refugees.
+A vassal kingdom of Valengard. Was ruled by human nobles who marginalised non-humans, but a recent uprising saw the humans deposed and much of the city burned. The fragile revolutionary government is struggling to keep order, and neighbouring minor kingdoms are flooded with refugees.
 
-Ember had a small human ruling class and a mostly non-human population, but after the revolution, many humans have fled - and many who remain are desperately try to prove some elven or dwarven ancestry. Elves, dwarves, halflings make up most of the populace, but many have at least some human in their family tree.
+Before the revolution, Ember had a small human ruling class and a mostly non-human population, but now many humans have fled - and many who remain are desperately try to prove some elven or dwarven ancestry. Elves, dwarves, halflings make up most of the populace, but many have at least some human in their family tree.
 ### Vildmark
 A small town on the border of Rochekell and Ravena's territory. Small trader ships and fishing boats constantly fight off raids by local merfolk.
 
@@ -55,10 +54,12 @@ Vildmark recently suffered a magical accident, leaving the town's ocean cliffs i
 Deep in the Dark Forest is a reclusive city of drow (dark elves). Queen Sorelia of Bronston Forge is half-Lucrezian and has politically unified the city with Bronston Forge.
 
 Lucrezia is entirely populated by drow, with the occasional half-drow.
-### Northern Tribes
-In the tundra north of Rochekell are a variety of small tribes. The most significant are the White Fox, Grey Raven, and Blue Roc tribes. They are constantly in a struggle against elements, and the giant monsters and dragons that live in the northern reaches of the world.
+### Ylönen Clans
+In the tundra north of Rochekell are a variety of clans known as the Ylönen. The most significant are the White Fox, Grey Raven, and Blue Roc tribes. They are constantly in a struggle against elements, and the giant monsters and dragons that live in the northern reaches of the world. Many of the Ylönen are renowned beastmasters, taming these monsters to fight alongside them.
 
-The northern tribes are a mix of humans, wood elves, dwarves, orcs, and goliaths.
+The Ylönen culture is heavily influences by the traditions of the oni (goliaths), who channel the powers of their giant ancestors. Personal and family honour are extremely important. They are led by a samurai caste who are deemed favoured by the gods - anyone who channels Divine magic is considered blessed.
+
+The Ylönen are a mix of humans, wood elves, dwarves, orcs, and goliaths.
 ### Eastern Steppes
 To the east past the mountains are endless grasslands, inhabited by nomadic tribes of wood elves, orcs, and goliaths.
 ### Southern Deserts

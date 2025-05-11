@@ -8,7 +8,7 @@ export default defineUserConfig({
   base: '/dnd/',
   lang: 'en-US',
 
-  title: 'D&D Campaign',
+  title: 'D&D Campaign Reference',
   description: 'D&D World and Player Info',
   head: [
     ['link', { rel: 'icon', href: 'favicon.ico' }]
@@ -77,8 +77,12 @@ export default defineUserConfig({
       },
       {
         text: 'The World',
-        link: 'world/map',
+        link: 'world/world-overview',
         children: [
+          {
+            text: 'World & History',
+            link: 'world/world-overview'
+          },
           {
             text: 'World Map',
             link: 'world/map'
