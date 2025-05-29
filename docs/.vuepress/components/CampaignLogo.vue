@@ -1,7 +1,7 @@
 <template>
   <div class="campaign-logo-component" :campaign-logo-size="size">
-    <img v-if="campaign === 'open-skies'" :src="`../images/Logo Open Skies Placeholder.png`" alt="Open Skies Campaign" />
-    <img v-else-if="campaign === 'blood-and-ash'" :src="`../images/Logo Blood and Ash Placeholder.png`" alt="Blood & Ash Campaign" />
+    <img v-if="campaign === 'open-skies'" :src="`../images/Logo Open Skies.webp`" alt="Open Skies Campaign" />
+    <img v-else-if="campaign === 'blood-and-ash'" :src="`../images/Logo Blood and Ash.webp`" alt="Blood & Ash Campaign" />
     <span v-else>Unknown campaign {{ campaign }}</span>
   </div>
 </template>
@@ -24,8 +24,7 @@ defineProps<{
 
   &[campaign-logo-size='large'] {
     width: 8rem;
-    margin-top: 1rem;
-    margin-inline: auto;
+    flex: 0 0 auto;
   }
 
   img {

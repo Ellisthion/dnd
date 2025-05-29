@@ -19,8 +19,10 @@ actions:
     link: ../rules/rules-changes
 ---
 
-<CampaignLogo :campaign="'blood-and-ash'" :size="'large'" />
+<CampaignIntro>
+  <CampaignLogo :campaign="'blood-and-ash'" :size="'large'" />
 
-Blood flows through the streets of Ember. A violent revolution has upended the city, and sent shockwaves through neighbouring kingdoms. Valengard and Bronston Forge struggle to stabilise a fragile peace. Will you rise from the ashes, or stoke the flames?
+  Blood flows through the streets of Ember. A violent revolution has upended the city, and sent shockwaves through neighbouring kingdoms. Valengard and Bronston Forge struggle to stabilise a fragile peace. Will you rise from the ashes, or stoke the flames?
+</CampaignIntro>
 
 <CampaignLinks :actions="$page.frontmatter.actions" />

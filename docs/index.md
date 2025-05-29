@@ -1,9 +1,9 @@
 ---
 actions:
-  - icon: Logo Open Skies Placeholder.png
+  - icon: Logo Open Skies.webp
     link: ./campaign-open-skies/introduction.md
 
-  - icon: Logo Blood and Ash Placeholder.png
+  - icon: Logo Blood and Ash.webp
     link: ./campaign-blood-ash/introduction.md
 ---
 

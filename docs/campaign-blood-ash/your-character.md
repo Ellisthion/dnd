@@ -31,6 +31,6 @@ Player characters must:
 * Be able to move around in a city that is currently persecuting humans and ex-nobles
 * *Not* be loyal to either Rochekell or Ravena, because if you were, you wouldn't be in Ember right now
 
-This can be as simple as "I grew up in Ember", but if you're from further afield, it may need more thought. It's important that you're not a pure human.
+This can be as simple as "I grew up in Ember", but if you're from further afield, it may need more thought. You should be non-human, at least partially, or able to disguise as such.
 
 If you've been in Ember for a while, think about how your life was before the revolution, and what you did during the revolution.

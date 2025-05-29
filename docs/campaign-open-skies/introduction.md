@@ -19,8 +19,10 @@ actions:
     link: ../rules/rules-changes
 ---
 
-<CampaignLogo :campaign="'open-skies'" :size="'large'" />
+<CampaignIntro>
+  <CampaignLogo :campaign="'open-skies'" :size="'large'" />
 
-It is the calm before the storm. Rochekell and Ravena are on the brink of war, while Valengard and Bronston Forge watch on, struggling with their own fragile peace. The skies shatter and the planes shake. Will you delve into ancient secrets, or soar into the open skies?
+  It is the calm before the storm. Rochekell and Ravena are on the brink of war, while Valengard and Bronston Forge watch on, struggling with their own fragile peace. The skies shatter and the planes shake. Will you delve into ancient secrets, or soar into the open skies?
+</CampaignIntro>
 
 <CampaignLinks :actions="$page.frontmatter.actions" />
