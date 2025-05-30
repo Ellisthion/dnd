@@ -16,7 +16,7 @@ We will be using the 2024 Player's Handbook.
 
 Most options are allowed, with a couple of exceptions, and a couple of caveats.
 ## Species / Race
-The city you will be starting in, [Ember)](../world/world-overview.md), is currently persecuting Humans. You may select the Human species, but _must_ describe your character as being Half-Elf, Half-Dwarf, or some other mix... or disguised as such.
+The city you will be starting in, [Ember](../world/world-overview.md), is currently persecuting Humans. You may select the Human species, but _must_ describe your character as being Half-Elf, Half-Dwarf, or some other mix... or disguised as such.
 
 Dragonborn are not permitted, because _you know what you did_.
 
