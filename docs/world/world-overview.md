@@ -2,6 +2,11 @@
 This game takes place in my personal campaign setting. This world has been used for multiple previous campaigns, most notably the Bronston Forge Campaign, and the Heart of the Sea Campaign.
 
 The setting is high fantasy. Magic is plentiful. Powerful city-states vie for control of the continent. The gods are powerful, interfering, and have their own agendas.
+
+## Map
+
+[View the world map](./map.md)
+
 ## Gods
 Gods are the Norse pantheon: Odin, Thor, Freya, etc. The temple of Freya is particularly powerful and influential.
 
