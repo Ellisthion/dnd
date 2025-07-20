@@ -6,7 +6,7 @@ This map is not exhaustive. All the major factions are roughly correct, but many
 
 <div class="image-box">
    <div class="image-box-inner">
-      <img :src="$withBase('/images/World v1.2 Optimised Cropped.webp')" alt="World Map" />
+      <img :src="$withBase('/images/World v1.3 Cropped.webp')" alt="World Map" />
    </div>
 </div>
 
