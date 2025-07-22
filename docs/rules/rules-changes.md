@@ -4,6 +4,9 @@
 This page covers specific rules changes. Any rules or restrictions on character creation is instead covered in [Character Creation (Open Skies)](../campaign-open-skies/character-creation.md) and [Character Creation (Blood & Ash)](../campaign-blood-ash/character-creation.md).
 :::
 
+## Fighting Styles
+* Great Weapon Fighting - the minimum die roll becomes half the die size. For example, a greatsword (2d6) can treat a 1 or 2 as a 3; a greataxe (1d12) can treat a 1, 2, 3, 4, or 5 as a 6. This applies to all additional dice that are part of the attack, with dice of different sizes having their own respective minimums.
+
 ## Druid Wild Shape
 Wild Shape is extended to allow you to turn into certain animal-like non-Beasts, such as Giant Eagles and Hippogryphs. As a rule of thumb, if a creature doesn't have any special magical abilities, it's probably okay - for example: Pegasus is fine, but Unicorn is not.
 
