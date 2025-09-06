@@ -35,7 +35,7 @@ There will be a central narrative as well as countless side stories. You will be
 
 Combat is intended to challenging. Make sure your character can contribute to combat in a meaningful way.
 
-Unlike the Bronston Forge Campaign, there will _not_ be an emphasis on secrets and conflict between players characters. Hostile or disruptive actions towards other player characters will only be allowed if you can convince both the DM and the other players involved why such actions are beneficial to the game and everyone's enjoyment of it.
+Unlike the Bronston Forge Campaign, there will _not_ be an emphasis on secrets and conflict between players' characters. Hostile or disruptive actions towards other player characters will only be allowed if you can convince both the DM and the other players involved why such actions are beneficial to the game and everyone's enjoyment of it.
 
 ## Campaign Start
 The beginning of the campaign will be in and around the city of Rochekell. For more information about the world, see [World Overview](../world/world-overview.md).
