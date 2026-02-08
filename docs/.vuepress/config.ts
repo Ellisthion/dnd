@@ -3,6 +3,7 @@ import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
 import { getDirname, path } from 'vuepress/utils'
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { mediumZoomPlugin } from '@vuepress/plugin-medium-zoom'
 
 export default defineUserConfig({
   base: '/dnd/',
@@ -19,6 +20,9 @@ export default defineUserConfig({
   // },
 
   plugins: [
+    mediumZoomPlugin({
+      selector: '[vp-content] > img:not(.disable-medium-zoom), [vp-content] :not(a) > img:not(.disable-medium-zoom)'
+    }),
     registerComponentsPlugin({
       componentsDir: path.resolve(__dirname, './components'),
     })

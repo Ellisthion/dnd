@@ -19,6 +19,7 @@
     "vuepress": "^2.0.0-rc.22"
   },
   "dependencies": {
+    "@fancyapps/ui": "^6.1.10",
     "sass": "^1.84.0"
   }
 }
