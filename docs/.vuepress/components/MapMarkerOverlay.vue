@@ -1,38 +1,55 @@
 <template>
-  <div class="map-marker-overlay-component" :style="{ '--map-w': mapConfig.width, '--map-h': mapConfig.height }">
-    <div
-      v-for="(marker, i) of markerViewModels"
-      :key="`${marker.name}_${i}`"
-      class="marker"
-      :class="[{ 
-        'is-visible': marker.visible,
-      },
-        `animation-${marker.animation}`
-      ]"
-      :style="{
-        '--x': marker.x,
-        '--y': marker.y,
-        '--w': marker.width,
-        '--h': marker.height,
-        '--tint': marker.tint,
-        '--icon': marker.icon,
-        '--animation': marker.animation
-      }"
-      :aria-label="marker.alt"
-    >
-      <div class="marker-icon"></div>
-    </div>
+  <div ref="hostEl" class="map-marker-overlay-component" :style="{ '--map-w': mapConfig.width, '--map-h': mapConfig.height }">
+    <template v-for="(marker, i) of markerViewModels" :key="`${marker.name}_${i}`">
+      <div      
+        class="marker"
+        :class="[{ 
+          'is-visible': marker.visible,
+        },
+          `animation-${marker.animation}`
+        ]"
+        :style="{
+          '--x': marker.x,
+          '--y': marker.y,
+          '--w': marker.width,
+          '--h': marker.height,
+          '--tint': marker.tint,
+          '--icon': marker.icon,
+          '--animation': marker.animation
+        }"
+        :data-tooltip="`map-tooltip-${i}`"
+        :aria-label="marker.alt"
+      >
+        <div class="marker-icon"></div>
+
+      </div>
+
+      <div style="display: none">
+        <div :id="`map-tooltip-${i}`">
+          <div>
+            <strong>{{ marker.name }}</strong>
+          </div>
+          <div>
+            {{ marker.description }}
+          </div>
+        </div>
+      </div>
+    </template>
   </div>
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, onMounted, onUnmounted, useTemplateRef } from 'vue';
 import { MapMarkerType, mapMarkers, mapMarkerTypes, mapConfig } from '../data/map-markers';
 import { withBase } from 'vuepress/client'
+import { delegate } from 'tippy.js';
+import 'tippy.js/dist/tippy.css';
 
 const props = defineProps<{
   activeMarkers: Record<MapMarkerType, boolean>
 }>();
+
+const hostEl = useTemplateRef('hostEl');
 
 const markerViewModels = computed(() => mapMarkers.map(marker => {
   return {
@@ -47,10 +64,40 @@ const markerViewModels = computed(() => mapMarkers.map(marker => {
     icon: `url(${withBase(`/images/map-icons/${marker.icon ?? mapMarkerTypes[marker.type].defaultIcon}.svg`)})`,
     animation: marker.animation ?? mapMarkerTypes[marker.type].defaultAnimation,
     
-    name: mapMarkerTypes[marker.type].name,
+    name: marker.name,
+    description: marker.description,
     alt: mapMarkerTypes[marker.type].name + ' - ' + marker.name
   }
 }));
+
+onMounted(async () => {
+  if (!hostEl.value) {
+    throw new Error('Cannot find host element');
+  }
+
+  const tippyDelegates = delegate('body', {
+    target: '.map-marker-overlay-component .marker',
+    content: (reference) => {
+      const tooltipId = (reference as HTMLElement)?.dataset?.tooltip;
+      if (tooltipId) {
+        const template = document.getElementById(tooltipId);
+        return template ? template.innerHTML : '';
+      }
+      return '';
+    },
+    allowHTML: true,
+    appendTo: (reference) => {
+      return reference.closest('dialog') || document.body;
+    },
+    zIndex: 99999
+  });
+
+  onUnmounted(() => {
+    for (const t of tippyDelegates) {
+      t.destroy();
+    }
+  })
+});
 </script>
 
 <style lang="scss" scoped>

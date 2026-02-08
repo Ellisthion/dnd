@@ -63,7 +63,7 @@ export const mapMarkers: MapMarker[] = [
   {
     type: 'planar-breach',
     name: 'The Dead Lake',
-    description: "Only creatures like copper dragons that tolerates the acidic conditions can live in the Dead Lake.",
+    description: "Only creatures like copper dragons that tolerate the acidic conditions can live in the Dead Lake.",
     x: 5101,
     y: 871
   },
@@ -119,7 +119,7 @@ export const mapMarkers: MapMarker[] = [
   {
     type: 'planar-breach',
     name: 'Fallen Crystal',
-    description: 'A crystal fell from the sky, with the young girl The Light of the Radiant Dawn.',
+    description: 'A crystal fell from the sky with the young girl, The Light of the Radiant Dawn.',
     x: 1569,
     y: 1735,
     icon: 'minerals',
