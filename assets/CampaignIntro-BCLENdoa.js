@@ -1,1 +1,0 @@
-import{_ as n,c as o,o as t,h as a}from"./app-Cr0dIeRk.js";const c={},s={class:"campaign-intro-component"};function r(e,_){return t(),o("div",s,[a(e.$slots,"default",{},void 0,!0)])}const f=n(c,[["render",r],["__scopeId","data-v-386e223f"]]);export{f as default};
