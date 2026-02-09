@@ -118,10 +118,17 @@ export const mapMarkers: MapMarker[] = [
   },
   {
     type: 'planar-breach',
+    name: 'Vildmark',
+    description: 'A story of misguided love led to Vildmark being home to elemental spirits of water and air.',
+    x: 1414,
+    y: 1720
+  },
+  {
+    type: 'planar-breach',
     name: 'Fallen Crystal',
     description: 'A crystal fell from the sky with the young girl, The Light of the Radiant Dawn.',
-    x: 1569,
-    y: 1735,
+    x: 1650,
+    y: 1740,
     icon: 'minerals',
     animation: 'float'
   }
